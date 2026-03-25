@@ -1,0 +1,20 @@
+# Binaries
+bin/
+*.exe
+*.out
+
+# Go
+vendor/
+*.test
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+tfplan
+
+# OS files
+.DS_Store
+
+# Logs
+*.log

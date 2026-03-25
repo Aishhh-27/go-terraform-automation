@@ -1,0 +1,60 @@
+
+Workspace: configs/dev
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/prod
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/stage
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/dev
+----------------------------------
+local_file.example → delete
+
+Workspace: configs/prod
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/stage
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/dev
+----------------------------------
+local_file.example → delete
+
+Workspace: configs/prod
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/stage
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/dev
+----------------------------------
+local_file.example → delete
+
+Workspace: configs/prod
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/stage
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/dev
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/prod
+----------------------------------
+local_file.example → no-op
+
+Workspace: configs/stage
+----------------------------------
+local_file.example → no-op
