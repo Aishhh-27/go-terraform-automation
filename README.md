@@ -33,7 +33,7 @@ Logs per-environment modifications
  Drift Detection
 Uses terraform plan -refresh-only
 Detects manual infrastructure changes outside Terraform
-🏗️ Project Structure
+🏗️Project Structure
 .
 ├── cmd/                 # CLI commands (apply, report, drift)
 ├── internal/
@@ -56,6 +56,10 @@ Checking: configs/dev
 
 Checking: configs/prod
  No drift in: configs/prod
+
+##  Example Output
+
+![Drift Detection](./screenshots/drift.png)
 
 Key Learnings
 Terraform automation using Go (terraform-exec)
