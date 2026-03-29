@@ -2,6 +2,8 @@
 
 A production-style infrastructure automation tool built in Go to manage, audit, and validate Terraform-based environments at scale.
 
+Focus: Automating infrastructure workflows using Go
+
  Overview
 
 This project automates Terraform workflows across multiple environments (dev, stage, prod) with built-in support for:
